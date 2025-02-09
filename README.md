@@ -10,24 +10,30 @@ This is a Node.js application that uses Express and MongoDB to generate and mana
 ## Installation
 
 1. Clone the repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/<your-username>/Employee-Dummy-Data-Generator.git
    cd Employee-Dummy-Data-Generator
-   \`\`\`
 
 2. Install dependencies:
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
 
 3. Start MongoDB:
-   \`\`\`bash
+   ```bash
    mongod
-   \`\`\`
+
 
 4. Run the server:
-   \`\`\`bash
-   node ex16.js
-   \`\`\`
+   ```bash
+   node server.js
 
-5. Open your browser at \`http://localhost:3000\`
+5. Open your browser at
+   ```bash
+    http://localhost:3000
+
+## Technologies Used
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- EJS
