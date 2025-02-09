@@ -21,8 +21,7 @@ This is a Node.js application that uses Express and MongoDB to generate and mana
 3. Start MongoDB:
    ```bash
    mongod
-
-
+   
 4. Run the server:
    ```bash
    node server.js
